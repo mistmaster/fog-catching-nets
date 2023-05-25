@@ -1,0 +1,87 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale1.0">
+	<title>MistMaster</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4db4d66f8d.js" crossorigin="anonymous">
+ </script>>
+</head>
+
+
+
+<body>
+<section class="sub-header">
+	<nav>
+	 	<a href="index.html"><img src="images/transparent.png">
+	 	<div class="nav-links" id="navLinks">
+	 		<i class="fa fa regular fa-xmark" onclick="hideMenu()"></i>
+	 		<ul>
+	 			<li><a href="index.html">HOME</a></li>
+	 			<li><a href="about.html">ABOUT</a></li>
+	 			<li><a href="login.html">LOGIN</a></li>
+	 			<li><a href="">DONATE</a></li>
+	 			<li><a href="r-wallet.html">r-WALLET</a></li>
+	 			<li><a href="contact us.html">CONTACT US</a></li>
+	 		</ul>
+	 	</div>
+	 	<i class="fa fa light fa-bars" onclick="showMenu()"></i>
+     </nav>
+	
+
+</section>
+
+<!-------method------>
+
+<section class="solution">
+	
+	<h1 style="color: slategray">DONATE</h1>
+	<p> Choose preferred method of donation.</p>
+	
+
+	<div class="container4">
+		<div class="solution-col">
+			<h3>Drop Off</h3>
+			<p >Check out locations of donation boxes near you, and drop of your donation!</p>
+			<a href="contact us.html"class="donate-btn">Locations</a>
+        </div>
+
+	</div>
+	<div class="container3">
+	    <div class="method-col">
+            <h3>Pick Up</h3>
+            <p style="color: lightgray">Register your address info and we'll have your donations picked up.</p>
+             <a href="donate.html"class="donate-btn">Donate</a>
+        </div>
+    </div>
+
+</section>
+
+<!-----footer----->
+<section class="footer">
+	<h4><b>About Us</b></h4>
+	<p>We aim to make contributions toward a more sustainable world through reducing waste from <br>fashion industry by recycling it into fog catching nets.</p>
+	<div class="icons">
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-solid fa-envelope"></i>
+		<i class="fa fa-whatsapp"></i>
+	</div>
+</section>
+
+<!--------javascript for toggle menu------>
+<script>
+	
+	var navLinks = document.getElementById("navLinks")
+	function showMenu() {
+		navLinks.style.right= "0";
+	function hideMenu() {
+		navLinks.style.right= "-200px";
+	}
+</script>
+</body>
+</html>

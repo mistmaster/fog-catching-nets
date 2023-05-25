@@ -1,0 +1,116 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale1.0">
+	<title>MistMaster</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4db4d66f8d.js" crossorigin="anonymous">
+ </script>>
+</head>
+
+
+
+<body>
+<section class="header">
+	<nav>
+	 	<a href="index.html"><img src="images/transparent.png">
+	 	<div class="nav-links" id="navLinks">
+	 	<i class="fa fa regular fa-xmark" onclick="hideMenu()"></i>
+	 		<ul>
+	 			<li><a href="">HOME</a></li>
+	 			<li><a href="about.html">ABOUT</a></li>
+	 			<li><a href="login.html">LOGIN</a></li>
+	 			<li><a href="method.html">DONATE</a></li>
+	 			<li><a href="r-wallet.html">r-WALLET</a></li>
+	 			<li><a href="contact us.html">CONTACT US</a></li>
+	 		</ul>
+	 	</div>
+	 	<i class="fa fa light fa-bars" onclick="showMenu()"></i>
+    </nav>
+	
+
+<div class="text-box">
+   <center><h1 style="font-weight: 600"><font color="DarkSeaGreen"> MistMaster </h1> </center>
+   	<p style="font-weight: 100">Embrace the Future, Embrace Sustainability.</p>
+<hr>
+</section>
+
+<!-------problem-------->
+
+<section class="problem">
+	<center><h1>The Problem!</h1></center>
+	<center><p style="color:black">Fast Fashion has been proven to be one of the greatest dangers in our planet.</p></center>
+
+	<div class="row">
+		<div class="problem-col">
+			<h3 style="color: cadetblue">Textile Waste.</h3>
+			<p>Cheap, trendy clothing is more likely to be thrown out than expensive, classic clothing. This shouldn't come as a surprise because we tend to appreciate things less when we don't spend a lot of money on them. Only 2.5 million tons of the 17 million tons of textile waste produced in 2018 were recycled, according to the Environmental Protection Agency (EPA).1 Compared to other materials like paper, glass, or even plastic, clothing recycles at a much lower rate. This is related to the usage of short-fiber fabrics, which are less expensive, thinner, and incapable of being rewoven into new materials.</p>
+		</div>
+		<div class="problem-col">
+			<h3 style="color: cadetblue">CO2 emissions</h3>
+			<p>When clothes are transported from manufacturing to retail locations, carbon emissions happen. Emissions happen once more with each transaction, whether made in person or online. But most importantly, they take place one last time when the product is discarded by the customer, hauled to a landfill, and occasionally burned.</p>
+		</div>
+		<div class="problem-col">
+			<h3 style="color: cadetblue">Water Pollution.</h3>
+			<p>These clothes might increase marine pollution. Microplastics can be found in clothing made of synthetic materials. This includes textiles produced from repurposed water bottles, which are frequently promoted as an environmentally beneficial choice. The minute pieces of plastic are flushed into sewer systems and eventually end up in the ocean when these goods are washed or when they are in a landfill and exposed to rain.</p>
+		</div>
+     
+    </div>
+
+</section>
+<!-------solution------>
+
+<section class="solution">
+	
+	<h1>SOLUTION</h1>
+	<p> But worry not, we have come up with a solution.</p>
+	
+
+	<div class="container4">
+		<div class="solution-col">
+			<p style="color: seagreen">We will recieve donations in the form of clothes, these clothes <br> will be used to create a mesh that catchess fogs and turns it into <br>water droplets. This will not only create a sustainable source of water, <br>but will also create a more environmentally friendly solution than <br>sending old clothes to landfills.</p>
+        </div>
+
+        <div class="solution-col">
+        	<img src="images/fog.jpg">
+        </div>
+
+	</div>
+
+</section>
+
+<!------call to action---->
+
+<section class="cta">
+	<h1 style="font-weight: 100">Become a part of the CHANGE.</h1>
+	<a href="method.html"class="hero-btn">DONATE</a>
+
+</section>
+<!-----footer----->
+<section class="footer">
+	<h4><b>About Us</b></h4>
+	<p>We aim to make contributions toward a more sustainable world through reducing waste from <br>fashion industry by recycling it into fog catching nets.</p>
+	<div class="icons">
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-solid fa-envelope"></i>
+		<i class="fa fa-whatsapp"></i>
+	</div>
+</section>
+
+<!--------javascript for toggle menu------>
+<script>
+	
+	var navLinks = document.getElementById("navLinks")
+	function showMenu() {
+		navLinks.style.right= "0";}
+	function hideMenu() {
+		navLinks.style.right= "-200px";
+	}
+</script>
+</body>
+</html>
