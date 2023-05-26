@@ -462,11 +462,12 @@ input[type="submit"]:hover{
 
 }
 .royal {
-	height: 100vh;
+	height: 60vh;
 	width: 100%;
 	background: white;
 	background-position: center;
 	background-size: cover;
+
 }
 .balance {
 	position: absolute;
@@ -476,10 +477,65 @@ input[type="submit"]:hover{
 	width: 400px;
 	background: mediumaquamarine;
 	border-radius: 10px;
+	margin: 30px 0;
 }
 .balance h2{
 	text-align: center;
 	padding: 10px 0 20px 0;
-	border-bottom: 1px solid peachpuff;
+	border-bottom: 1px solid white;
 
+}
+/**-----rwallet--------*/
+.donation-history{
+	margin-left: auto;
+	margin-right: auto;
+	color: coral;
+	text-align: center;
+}
+.content-table{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 900px;
+	text-align: center;
+}
+.content-table thead tr{
+	background-color: antiquewhite;
+	color: black;
+	text-align: center;
+}
+.content-table th,
+.content-table td {
+	padding: 12px 15px;]
+	background-color: cornsilk;
+}
+.log-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position:relative;
+	cursor: pointer;
+	margin: 30px;
+	align-items: center;
+}
+.log-btn:hover{
+	border: 1px solid tomato;
+	background: tomato;
+	transition: 1s;
+	color: white;
+}
+.content-table tbody{
+	background-color: floralwhite;
+}
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 ;
+}
+.container > div {
+	flex-basis: 50%;
 }
