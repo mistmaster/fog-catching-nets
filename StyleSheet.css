@@ -155,6 +155,9 @@ h3{
 	.row{
 		flex-direction: column;
 	}
+	.lop{
+		width: 200px;
+	}
 } 
 /*--------solution-------*/
 
