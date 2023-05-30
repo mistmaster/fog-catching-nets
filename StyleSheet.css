@@ -78,6 +78,9 @@ nav .fa{
 }
 
 @media(max-width: 700px){
+	*{
+		margin: 20px 0;
+	}
 	.text-box h1{
 		font-size: 20px;
 	}
