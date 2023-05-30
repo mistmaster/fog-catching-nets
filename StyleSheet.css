@@ -476,7 +476,7 @@ input[type="submit"]:hover{
 .wall-header{
 	height: 50vh;
 	width: 100%;
-	background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,0,30,0.2)),url(images/trees.webp);
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/trees.webp);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
